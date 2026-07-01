@@ -1,0 +1,44 @@
+package com.zetheta.paymentorchestrator.enums;
+
+public enum PaymentStatus {
+
+    CREATED,
+
+    ROUTE_SELECTED,
+
+    AUTH_INITIATED,
+
+    AUTHORIZED,
+
+    AUTH_FAILED,
+
+    CAPTURE_INITIATED,
+
+    CAPTURED,
+
+    PARTIALLY_CAPTURED,
+
+    CAPTURE_FAILED,
+
+    REFUND_INITIATED,
+
+    REFUNDED,
+
+    PARTIALLY_REFUNDED,
+
+    REFUND_FAILED,
+
+    SETTLED,
+
+    VOID_INITIATED,
+
+    VOIDED,
+
+    AUTH_EXPIRED,
+
+    FAILED,
+
+    DISPUTE_OPENED,
+
+    DISPUTE_RESOLVED
+}
