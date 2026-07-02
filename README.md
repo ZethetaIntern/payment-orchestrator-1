@@ -289,14 +289,7 @@ Example:
   "refunded": 1
 }
 ```
----
-
-# Architecture
-
-The system architecture is shown below.
-
-![Architecture](docs/architecture.png)
----
+--
 
 ### Reconciliation Scheduler
 
